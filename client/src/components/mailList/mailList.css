@@ -1,0 +1,63 @@
+.mail{
+width:100%;
+/* margin-left: auto;
+margin-right: auto; */
+margin-top: 10%;
+
+background-color: #003580;
+color:white;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+gap:20px;
+ padding: 50px;
+
+}
+
+.mailInputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mailInputContainer>input{
+width:30%;
+height:30px;
+padding: 1%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1%;
+border:none;
+text-align: center;
+border-radius: 5px;
+}
+
+.mailInputContainer>button{
+    width:15%;
+height: 35px;
+background-color: #0071c2;
+color: white;
+font-weight: 500;
+border-radius: 5px;
+cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.mailDesc,.mailTitle{
+margin-left: auto;
+margin-right: auto;
+}
+
+@media(max-width:600px){
+    .mailInputContainer>input{
+        width:100%;
+        margin-bottom: 2%;
+        
+        }
+
+        .mailInputContainer>button{
+            width:30%;}
+
+}

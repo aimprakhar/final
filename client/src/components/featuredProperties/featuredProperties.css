@@ -1,0 +1,61 @@
+.fp{
+    width:100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.fpItem{
+    flex:1;
+    gap:10px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(177, 236, 236);
+    border-radius: 10px;
+  
+}
+
+.fpImg{
+    width:100%;
+}
+
+.fpName{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.fpCity{
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fpRating>button{
+background-color: #003580;
+color:white;
+border:none;
+padding:3px;
+/* margin-right: 10px; */
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.fpRating>span{
+    font-size: 14px;
+    
+}
+.fpPrice{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fpRating{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
